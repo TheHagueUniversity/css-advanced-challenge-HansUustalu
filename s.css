@@ -1,0 +1,62 @@
+body{
+
+}
+.vl {
+  border-left: 10px solid green;
+  height: 2cm;
+  width: 100px;
+}
+hr.new{
+  border-left: 30px solid green;
+  width: 2cm;
+  height: 100cm;
+}
+hr{
+  width: 80%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#666;
+  border: 0 none;
+  margin-top: 100px;
+  margin-bottom:100px;
+
+}
+.hr {
+  border: 3px solid red;
+         width: 3cm;
+         height: 0px;
+}
+.vl2{
+  border-left: 10px solid green;
+  height: 2cm;
+  width: 100px;
+  margin-left: 2.8cm;
+}
+.hr2{
+  border: 3px solid red;
+         width: 3cm;
+         height: 0px;
+         margin-top: 0px;
+         margin-left: 2.9cm;
+}
+.vl3{
+  border-left: 10px solid green;
+  height: 2cm;
+  width: 100px;
+  margin-left: 5.8cm;
+}
+.container{
+width: 100%;
+height: 100%;
+flex-direction: row;
+background-color: blue;
+
+display:grid;
+flex-flow: row wrap;}
+
+
+.container>div{
+  background-color: red;
+  margin-top: 50px;
+}

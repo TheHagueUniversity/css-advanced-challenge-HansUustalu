@@ -1,0 +1,70 @@
+.artcontent{
+
+  display:grid;
+
+}
+#one {
+
+  margin-top: 10px;
+  grid-column-start:span 1;
+grid-column-end: span 2;
+grid-row-start: 1;
+grid-row-end:  2;
+  border: 4px solid;
+  margin-right: 800px;
+  padding-right: 50px;
+  background-color: red;
+}
+#two {
+display: grid;
+margin-top: 20px;
+grid-column-start:span 2;
+grid-column-end:  2;
+margin-top:100px;
+margin-right: 900px;
+padding-top: 100px;
+  border: 4px solid;
+  border-radius: 2px;
+  border-top: 10px;
+  border-bottom: 10px;
+  width:0px;
+  height: 100px;
+  margin-left: 203px;
+  margin-top: auto;
+  background-color: green;
+}
+#three {
+  display: grid;
+  margin-top: 20px;
+  grid-column-start:span 3;
+grid-column-end: span 4;
+grid-row-start: 3;
+grid-row-end:  5;
+  margin-top:1px;
+  margin-right: 900px;
+padding-top: 100px;
+margin-bottom: 200px;
+    border: 4px solid;
+    margin-left: 103px;
+    background-color: yellow;
+
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+  margin-left: 0px;
+  border: 10px solid;
+  margin-top: 10px;
+  margin-left: -10px;
+  height: 100px;
+}
+.five {
+  grid-column: 4;
+  grid-row: 4;
+  margin-left: 0px;
+}
+.six {
+  grid-column: 4;
+  grid-row: 4;
+  margin-left: 0px;
+}
